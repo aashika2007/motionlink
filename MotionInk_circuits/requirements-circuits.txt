@@ -1,0 +1,2 @@
+numpy>=1.23
+flask>=2.3   # only for motionink/circuits/api.py

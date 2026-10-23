@@ -1,0 +1,50 @@
+{
+  "files": {
+    "tracks/Spielberg.csv": {
+      "url": "https://raw.githubusercontent.com/TUMFTM/racetrack-database/e59595d1f3573b30d1ded6a08984935b957688e0/tracks/Spielberg.csv",
+      "git_blob_sha1": "2142560d8be62ef4cb2c358d182f866a283f3529",
+      "sha256": "277b2854c4323021b10b6b63ebfe6a6cc971f494c0728202e910d67d7d65dc8c",
+      "bytes": 29945,
+      "verified_against_github": true
+    },
+    "racelines/Spielberg.csv": {
+      "url": "https://raw.githubusercontent.com/TUMFTM/racetrack-database/e59595d1f3573b30d1ded6a08984935b957688e0/racelines/Spielberg.csv",
+      "git_blob_sha1": "7f8a6fe720a02cb170d514b3e7fd5abab29184b0",
+      "sha256": "dd8516946053f5fdd4a5fe0b2f3df1bfe10d90fea84fe2ce125da4763da7fc15",
+      "bytes": 19397,
+      "verified_against_github": true
+    },
+    "tracks/Monza.csv": {
+      "url": "https://raw.githubusercontent.com/TUMFTM/racetrack-database/e59595d1f3573b30d1ded6a08984935b957688e0/tracks/Monza.csv",
+      "git_blob_sha1": "6d32bc7bb35d5fc8e85222dd499af11442562f82",
+      "sha256": "4b5993986e67950df1b89efa03a4df02127f07b7213985917f0bad27ad3d48b6",
+      "bytes": 39894,
+      "verified_against_github": true
+    },
+    "racelines/Monza.csv": {
+      "url": "https://raw.githubusercontent.com/TUMFTM/racetrack-database/e59595d1f3573b30d1ded6a08984935b957688e0/racelines/Monza.csv",
+      "git_blob_sha1": "9c3fe875ad605da8fba1e577fcb1ba5fdfec770e",
+      "sha256": "e1a19955d36cc4088ed500679822c5b16393a0536653fc315a5c3bf2d6f24bfe",
+      "bytes": 25799,
+      "verified_against_github": true
+    },
+    "tracks/Silverstone.csv": {
+      "url": "https://raw.githubusercontent.com/TUMFTM/racetrack-database/e59595d1f3573b30d1ded6a08984935b957688e0/tracks/Silverstone.csv",
+      "git_blob_sha1": "fd8720941d71fa25709c1a0a2677a1d3cabbe7d6",
+      "sha256": "27c51454e81780a75c353d3e6c9f73dbbcd1e82139782e95bd722ade19736e39",
+      "bytes": 40381,
+      "verified_against_github": true
+    },
+    "racelines/Silverstone.csv": {
+      "url": "https://raw.githubusercontent.com/TUMFTM/racetrack-database/e59595d1f3573b30d1ded6a08984935b957688e0/racelines/Silverstone.csv",
+      "git_blob_sha1": "4178c828d80690d21ba7855cf89865f9d3c4c9e2",
+      "sha256": "cd91302271801f26d61c047180f60ed080ddcedd53981e69872d475f26ef9408",
+      "bytes": 25848,
+      "verified_against_github": true
+    }
+  },
+  "dataset": "https://github.com/TUMFTM/racetrack-database",
+  "license": "LGPL-3.0",
+  "commit": "e59595d1f3573b30d1ded6a08984935b957688e0",
+  "fetched_at": "2026-10-23T16:56:07+00:00"
+}
