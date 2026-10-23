@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotionLink | Racing Intelligence</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-icon">M</span> MOTION<span>LINK</span></div>
+    <p class="section-label">WORKSPACE</p>
+    <button class="nav-item active" data-page="overview">◈ Overview</button>
+    <button class="nav-item" data-page="tracking">◎ Video Tracking</button>
+    <button class="nav-item" data-page="racing">⌁ Racing Line</button>
+    <button class="nav-item" data-page="analysis">◫ Performance</button>
+    <div class="sidebar-bottom">
+      <span class="status-dot"></span> LOCAL WORKSPACE
+      <p>Computer Vision · Spatial Computing</p>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">VOODOO VISION / MOTIONLINK</div>
+        <h1 id="page-title">Racing Intelligence</h1>
+      </div>
+      <div class="live-status"><span class="status-dot"></span> DEVELOPMENT MODE</div>
+    </header>
+
+    <section class="welcome">
+      <div>
+        <div class="eyebrow">SEE THE LINE. CHANGE THE GAME.</div>
+        <h2>Make every movement<br> <span>mean something.</span></h2>
+        <p>Track movement. Reshape trajectories. Explore racing-line performance.</p>
+        <button class="primary-btn" id="upload-cta">＋ Load racing video</button>
+      </div>
+      <div class="hero-mark" aria-hidden="true">M<span>/</span>L</div>
+    </section>
+
+    <section class="metrics">
+      <article class="metric-card">
+        <span class="metric-label">VIDEO SOURCE</span>
+        <strong id="video-status">NOT LOADED</strong>
+        <small>Local video input</small>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">TRACKING STATUS</span>
+        <strong id="tracking-status">STANDBY</strong>
+        <small>Computer vision</small>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">CIRCUIT DATA</span>
+        <strong id="circuit-status">NOT LOADED</strong>
+        <small>Verified geometry required</small>
+      </article>
+      <article class="metric-card">
+        <span class="metric-label">PERFORMANCE</span>
+        <strong>AWAITING DATA</strong>
+        <small>No simulated results yet</small>
+      </article>
+    </section>
+
+    <section class="workspace-grid">
+      <article class="panel video-panel" id="video-workspace">
+        <div class="panel-heading">
+          <div><span class="eyebrow">01 / COMPUTER VISION</span><h3>Video workspace</h3></div>
+          <span class="tag">INPUT</span>
+        </div>
+        <label class="upload-zone" for="video-input" id="upload-zone">
+          <span class="upload-icon">↥</span>
+          <strong>Drop racing footage here</strong>
+          <span>or click to browse your files</span>
+          <small>Local video · MP4, MOV, WebM where supported</small>
+        </label>
+        <input id="video-input" type="file" accept="video/*" hidden>
+        <video id="video-player" controls playsinline hidden></video>
+        <p class="helper" id="video-message">No video loaded. Tracking will be enabled after video selection and tracker integration.</p>
+      </article>
+
+      <article class="panel circuit-panel" id="circuit-workspace">
+        <div class="panel-heading">
+          <div><span class="eyebrow">02 / SPATIAL EDITOR</span><h3>Circuit workspace</h3></div>
+          <span class="tag">EDITOR</span>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="circuit-canvas" aria-label="Interactive racing line editor"></canvas>
+          <div class="canvas-label" id="canvas-label">AWAITING REAL CIRCUIT DATA</div>
+        </div>
+        <div class="legend">
+          <span><i class="legend-dot reference"></i> Reference line</span>
+          <span><i class="legend-dot edited"></i> Edited line</span>
+        </div>
+        <p class="helper">Circuit geometry will appear after a verified dataset is connected. The editor is not yet connected to a real track.</p>
+      </article>
+    </section>
+
+    <section class="panel analysis-panel" id="analysis-workspace">
+      <div class="panel-heading">
+        <div><span class="eyebrow">03 / PERFORMANCE ENGINE</span><h3>Trajectory analysis</h3></div>
+        <span class="tag">AWAITING INTEGRATION</span>
+      </div>
+      <div class="analysis-empty">
+        <span class="analysis-symbol">⌁</span>
+        <div><strong>Your trajectory analysis will appear here.</strong><p>Load a video and connect circuit geometry before comparing paths.</p></div>
+      </div>
+    </section>
+
+    <footer>MotionLink · Hackathon prototype <span>Measured data and model estimates will be labelled separately.</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
