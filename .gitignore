@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# MotionInk tracking
+*.mp4
+*.mov
+*.avi
+*.mkv
+tracking_output/
+__pycache__/
